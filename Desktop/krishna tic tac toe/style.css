@@ -1,0 +1,147 @@
+
+	#btn{
+		background-color: white;
+		font-size: 1in;
+		font-family: "Courier New", "Courier";
+		font-weight: bold;
+		width: 1.5in;
+		height: 1.5in;
+		margin: 5px;
+		background-image: url("images (9).jpe");
+		background-size: 140px 150px;
+		display:inline;
+		margin: 1px;
+		
+	}
+
+	body
+	{
+    background-image: url("download (1).jpe");
+	background-size: 500px 500px;
+	}
+	
+	h1
+	{
+    font-family:Curlz MT;
+	color:white;
+	font-size:70;
+	}
+	
+	.abc
+	{
+	width:50%;
+	float:left;
+	margin-left: 200px ;
+	display: inline ;
+	}
+	
+	.xyz
+	{
+	font-family:Curlz MT;
+	color:white;
+	font-size:40;
+	float:top;
+	width:50%;
+	margin-left:700px;
+	}
+	
+	#ab
+	{
+	font-family:Curlz MT;
+	color:white;
+	font-size:40;
+	float:top;
+	//float:right;
+	width:50%;
+	//align:center;
+	margin-left:700px;
+	}
+
+	
+	#x
+	{
+	font-size: 20px;
+	border-radius: 8px;
+	border: 2px solid purple;
+	align:center;
+	font-family:Curlz MT;
+	font-weight:bold;
+	background-color:purple;
+	color:white;
+	}
+	
+	#xy
+	{
+	font-size: 20px;
+	border-radius: 8px;
+	border: 2px solid purple;
+	margin-left:600px;
+	margin-top:200px;
+	font-family:Curlz MT;
+	font-weight:bold;
+	background-color:purple;
+	color:white;
+	}
+	
+	#demo
+	{
+     color:white;
+	 font-size: 37px;
+	 }
+	 
+	.overlay
+	{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    opacity: 1;
+	background-image: url("download (1).jpe");
+    overflow-y: hidden;
+    transition: 0.5s
+    }
+	
+   .animate
+    {
+   font-family:Curlz MT;
+   color:white;
+   font-size:70;
+   position:absolute;
+   margin-left:150px;
+  
+   text-align:center;
+   
+   
+  
+   // position: relative;
+    -webkit-animation: slide 5s infinite;
+    animation: slide 5s infinite;
+}
+
+
+@-webkit-keyframes slide
+ {
+    from {top: 0px;}
+    to {top: 200px;}
+}
+
+@keyframes slide
+ {
+    from {top: 0px;}
+    to {top: 200px;}
+}
+  }
+	
+	@-webkit-keyframes myMove
+	{
+    from {top: 0px;}
+    to {top: 250px;}
+    }
+
+  @keyframes myMove
+  {
+   from {top: 0px;}
+   to {top: 250px;}
+  }
